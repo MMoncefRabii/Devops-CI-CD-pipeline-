@@ -1,0 +1,2 @@
+# Keep shell scripts with Linux line endings, even when committed from Windows
+*.sh text eol=lf
