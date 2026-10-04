@@ -18,4 +18,5 @@ Vagrant.configure("2") do |config|
   # Re-run just one with:  vagrant provision --provision-with docker
   config.vm.provision "base",   type: "shell", path: "provision/01-base.sh"
   config.vm.provision "docker", type: "shell", path: "provision/02-docker.sh"
+  config.vm.provision "jenkins", type: "shell", path: "provision/03-jenkins.sh"
 end
